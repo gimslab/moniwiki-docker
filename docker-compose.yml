@@ -17,7 +17,7 @@ services:
 
     php-fpm:
         #image: php:7-fpm
-        image: php:7-fpm-for-moniwiki
+        image: gimslab/php:7-fpm-for-moniwiki
         volumes:
           - ./html:/var/www/html
           - ./php-fpm-conf-add.ini:/usr/local/etc/php/conf.d/php-fpm-conf-add.ini
