@@ -1,0 +1,3 @@
+[submodule "html/moniwiki"]
+	path = html/moniwiki
+	url = git@github.com:wkpark/moniwiki.git
